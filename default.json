@@ -1,0 +1,15 @@
+{
+    "extends": ["config:base"],
+    "labels": ["dependencies"],
+    "stabilityDays": 5,
+    "prCreation": "not-pending",
+    "prNotPendingHours": 1,
+    "prConcurrentLimit": 6,
+    "prHourlyLimit": 3,
+    "rangeStrategy": "bump",
+    "schedule": ["before 7am on Monday", "before 7am on Thursday"],
+    "timezone": "Australia/Melbourne",
+    "docker": {
+        "enabled": false
+    }
+}
