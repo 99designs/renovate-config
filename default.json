@@ -2,6 +2,7 @@
     "extends": ["config:base"],
     "labels": ["dependencies"],
     "stabilityDays": 5,
+    "internalChecksFilter": "strict",
     "prCreation": "not-pending",
     "prNotPendingHours": 1,
     "prConcurrentLimit": 6,
