@@ -1,3 +1,5 @@
+# ⚠️ READ-ONLY - This repo is no longer used in [Gitlab](https://vistaprint.atlassian.net/wiki/spaces/DEV/pages/3264058704/Setup+GitLab+integrations#%F0%9F%8F%97%EF%B8%8F-Configure-Renovate)
+
 # renovate-config
 
 This repo is used to share Renovate configuration across repositories.
